@@ -4,7 +4,6 @@
     height: 500px;
     background-color: #EFEFEF;
 }
-
 .draggable {
     float: right;
     width: 300px;
@@ -12,14 +11,12 @@
     background-color: #CCC;
     margin: 5px;
 }
-
 .available-widgets {
     float: right;
-    width: 320px;
-    height: 640px;
+    width: 310px;
+    height: 630px;
     background-color: #DDD;
 }
-
 .over {
     border: 1px solid #CCC;
 }
