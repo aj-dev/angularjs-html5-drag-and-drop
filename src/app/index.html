@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS HTML5 Drag & Drop</title>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <script type="text/javascript" src=".././vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<div ng-app="Dashboard" data-ng-controller="DashboardController">
+    <div class="dashboard" data-droppable></div>
+    <div class="available-widgets" data-droppable>
+        <div data-draggable="true" id="drag-me" class="draggable">
+            <span>This is a draggable div 1</span><br/>
+        </div>
+        <div data-draggable="true" id="drag-me-2" class="draggable">
+            <span>This is a draggable div 2</span><br/>
+        </div>
+        <div data-draggable="true" id="drag-me-3" class="draggable">
+            <span>This is a draggable div 3</span><br/>
+        </div>
+    </div>
+</div>
+</body>
+</html>
