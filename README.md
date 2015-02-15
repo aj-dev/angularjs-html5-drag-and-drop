@@ -1,4 +1,4 @@
-AngularJS-HTML5-Drag---Drop
+angularjs-html5-drag-and-drop
 ===========================
 
 AngularJS HTML5 Drag &amp; Drop
